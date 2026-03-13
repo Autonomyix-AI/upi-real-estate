@@ -12,52 +12,54 @@ export function Footer() {
     return (
         <footer className="bg-[#0a0a0a] border-t border-[#1a1a1a]">
             <div className="max-w-7xl mx-auto px-6 lg:px-8 py-16">
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-12 items-start">
-                    {/* Logo */}
-                    <div className="flex flex-col gap-4">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-8 items-start">
+                    {/* Logo & Intro */}
+                    <div className="flex flex-col items-center md:items-start gap-4 text-center md:text-left">
                         <Image
                             src="/logo-transparent.png"
                             alt="Unique Property Investments"
                             width={350}
                             height={140}
-                            className="w-56 md:w-64 h-auto object-contain"
+                            className="w-48 md:w-64 h-auto object-contain"
                             quality={100}
                             priority
                         />
-                        <p className="text-[#a0a0a0] text-sm leading-relaxed max-w-xs">
+                        <p className="text-[#a0a0a0] text-sm leading-relaxed max-w-sm mt-2">
                             Premium rentals and Airbnb properties for expats and diaspora in
                             Nairobi&apos;s finest neighbourhoods.
                         </p>
                     </div>
 
                     {/* Nav Links */}
-                    <div className="flex flex-col items-start md:items-center gap-3">
+                    <div className="flex flex-col items-center md:items-center gap-4">
                         <h4
                             className="text-[#D4A017] text-sm uppercase tracking-widest mb-2"
                             style={{ fontFamily: "var(--font-playfair)" }}
                         >
                             Quick Links
                         </h4>
-                        {navLinks.map((link) => (
-                            <Link
-                                key={link.href}
-                                href={link.href}
-                                className="text-[#a0a0a0] text-sm hover:text-[#D4A017] transition-colors duration-300"
-                            >
-                                {link.label}
-                            </Link>
-                        ))}
+                        <div className="flex flex-col items-center md:items-center gap-3">
+                            {navLinks.map((link) => (
+                                <Link
+                                    key={link.href}
+                                    href={link.href}
+                                    className="text-[#a0a0a0] text-sm hover:text-[#D4A017] transition-colors duration-300"
+                                >
+                                    {link.label}
+                                </Link>
+                            ))}
+                        </div>
                     </div>
 
-                    {/* Social */}
-                    <div className="flex flex-col items-start md:items-end gap-4">
+                    {/* Social & Contact */}
+                    <div className="flex flex-col items-center md:items-end gap-5 text-center md:text-right">
                         <h4
-                            className="text-[#D4A017] text-sm uppercase tracking-widest mb-2"
+                            className="text-[#D4A017] text-sm uppercase tracking-widest mb-1"
                             style={{ fontFamily: "var(--font-playfair)" }}
                         >
-                            Connect
+                            Connect With Us
                         </h4>
-                        <div className="flex items-center gap-4">
+                        <div className="flex items-center justify-center md:justify-end gap-4">
                             {/* Instagram */}
                             <a
                                 href="https://instagram.com"

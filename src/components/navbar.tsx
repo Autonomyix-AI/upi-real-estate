@@ -100,7 +100,7 @@ export function Navbar() {
             {/* Mobile Menu */}
             <div
                 className={cn(
-                    "md:hidden fixed inset-0 bg-[#0a0a0a]/98 backdrop-blur-xl transition-all duration-500 flex flex-col items-center justify-center gap-8",
+                    "md:hidden fixed inset-0 bg-[#0a0a0a] transition-all duration-500 flex flex-col items-center justify-center gap-8 z-40",
                     isOpen
                         ? "opacity-100 pointer-events-auto"
                         : "opacity-0 pointer-events-none"
