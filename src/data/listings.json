@@ -1,0 +1,77 @@
+[
+    {
+        "id": "1",
+        "name": "Westlands Executive Suite",
+        "location": "Westlands, Nairobi",
+        "price": "KSh 180,000/mo",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "type": "Airbnb",
+        "description": "A stunning fully furnished executive apartment in the heart of Westlands. Perfect for expats seeking a premium short stay with all modern amenities included.",
+        "amenities": [
+            "WiFi",
+            "Parking",
+            "Pool",
+            "Gym",
+            "Security",
+            "Backup Power"
+        ],
+        "image": "https://images.unsplash.com/photo-1612637968894-660373e23b03?q=80&w=1170&auto=format&fit=crop"
+    },
+    {
+        "id": "2",
+        "name": "Kilimani Penthouse",
+        "location": "Kilimani, Nairobi",
+        "price": "KSh 220,000/mo",
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "type": "Airbnb",
+        "description": "Breathtaking penthouse apartment with rooftop access and panoramic Nairobi views. Ideal for executives and families seeking the very best.",
+        "amenities": [
+            "WiFi",
+            "Rooftop",
+            "Parking",
+            "Pool",
+            "Gym",
+            "Concierge"
+        ],
+        "image": "https://plus.unsplash.com/premium_photo-1661954372617-15780178eb2e?q=80&w=1460&auto=format&fit=crop"
+    },
+    {
+        "id": "3",
+        "name": "Lavington Garden Home",
+        "location": "Lavington, Nairobi",
+        "price": "KSh 280,000/mo",
+        "bedrooms": 5,
+        "bathrooms": 4,
+        "type": "Long Term",
+        "description": "Spacious family home in Nairobi's most prestigious suburb. Large garden compound, ample parking, and a quiet secure neighbourhood perfect for families.",
+        "amenities": [
+            "Garden",
+            "Parking",
+            "Security",
+            "Staff Quarters",
+            "Backup Power",
+            "WiFi"
+        ],
+        "image": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?q=80&w=1074&auto=format&fit=crop"
+    },
+    {
+        "id": "4",
+        "name": "Parklands Modern Apartment",
+        "location": "Parklands, Nairobi",
+        "price": "KSh 120,000/mo",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "type": "Long Term",
+        "description": "Contemporary apartment in the vibrant Parklands neighbourhood. Close to international schools, hospitals and shopping. Perfect for young professionals.",
+        "amenities": [
+            "WiFi",
+            "Parking",
+            "Gym",
+            "Security",
+            "Backup Power"
+        ],
+        "image": "https://images.unsplash.com/photo-1605146769289-440113cc3d00?q=80&w=1170&auto=format&fit=crop"
+    }
+]
